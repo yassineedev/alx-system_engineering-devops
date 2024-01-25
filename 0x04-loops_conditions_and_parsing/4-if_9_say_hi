@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# While and if
+count=1
+while [ $count -le 10 ]
+do
+	echo "Best School"
+	if [ $count == 9 ];
+	then
+		echo "Hi"
+	fi
+	count=$(( count + 1))
+done
